@@ -3,13 +3,15 @@
         background-image: url(./assets/deskback.svg);
     }
     .whitebox{
+        background-image: url(./assets/desktopback.svg);
+        background-repeat: no-repeat;
         display: flex;
         flex-direction: row;
         width: 920px;
         height: 509px;
         flex-shrink: 0;
         border-radius: 23px;
-        background: #FFF;
+        background-color: #FFF;
         box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.50);
     }
     .wb1{
@@ -17,16 +19,13 @@
         margin-right: 88px;
     }
     .main{
-        margin-top: 200px;
+        margin-top: 50px;
         width: 472px;
         height: 359px;
         flex-shrink: 0;
     }
     .shadow{
-        margin-top: -220px;
-        width: 472px;
-        height: 359px;
-        flex-shrink: 0;
+        display: none;
     }
     .wb2{
         display: flex;
@@ -38,10 +37,8 @@
         height: 1px;
         flex-shrink: 0;
     }
-    h2{
-        font-size: 14px;   
-    }
     h3{
+        width: 253px;
         font-size: 14px;
     }
     h4{
@@ -49,13 +46,19 @@
         font-size: 12px;
         line-height: 18px;
     }
-    h5{
-        font-size: 14px;
+    .ar1{
+        margin-left: 72px;
     }
-    .h5{
-        font-size: 14px;
+    .ar2{
+        margin-left: 71px;
     }
-    .h55{
-        font-size: 14px;
+    .ar3{
+        margin-left: 72px;
+    }
+    .ar4{
+        margin-left: 73px;
+    }
+    .ar5{
+        margin-left: 74px;
     }
 }
