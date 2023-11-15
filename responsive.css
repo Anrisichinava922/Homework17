@@ -3,6 +3,7 @@
         background-image: url(./assets/deskback.svg);
     }
     .whitebox{
+        overflow: hidden;
         background-image: url(./assets/desktopback.svg);
         background-repeat: no-repeat;
         display: flex;
@@ -18,11 +19,19 @@
         margin-left: -110px;
         margin-right: 88px;
     }
-    .main{
+    .desk{
+        display: block;
         margin-top: 50px;
-        width: 472px;
-        height: 359px;
-        flex-shrink: 0;
+        margin-left: 88px;
+    }
+    .box{
+        display: block;
+        position: absolute;
+        top: 356px;
+        right: 1088px;
+    }
+    .main{
+        display: none;
     }
     .shadow{
         display: none;
